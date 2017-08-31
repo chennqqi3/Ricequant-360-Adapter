@@ -3,4 +3,4 @@ WORKDIR /
 ADD ./adapter.py /adapter.py
 
 RUN pip install click rqopen_client requests
-CMD ['python','/adapter.py']
+CMD "python /adapter.py"

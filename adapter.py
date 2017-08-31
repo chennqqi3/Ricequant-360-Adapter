@@ -60,7 +60,7 @@ class RequestFor360System(dict):
 
 
 @click.command()
-@click.option('--url', envvar='RQ360_URL', default='http://test.stockapi.nicaifu.com/api.php')
+@click.option('--url', envvar='RQ360_URL', default='http://tstockapi.nicaifu.com/api.php')
 @click.option('--app_key', envvar='RQ360_APPKEY', default=None)
 @click.option('--user_360', envvar='RQ360_360USER', default=None)
 @click.option('--secret_360', envvar='RQ360_360SECRET', default=None)
